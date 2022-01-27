@@ -1,4 +1,4 @@
-19797495279143375
+19802425202423217
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84476,9 +84476,30 @@ varistor SIOV
 2
 2
 simple_led_torch
+2032_Battery_Holder
+
+
+0
+0
+0
+simple_led_torch
+DPST_L6.5mm_D4.5mm
+
+
+0
+4
+4
+simple_led_torch
+LED_L10mm_D2.54mm
+
+
+0
+2
+2
+simple_led_torch
 R_Axial_L8mm_D2.5mm_Horizontal
 
 
 0
-0
-0
+2
+2
