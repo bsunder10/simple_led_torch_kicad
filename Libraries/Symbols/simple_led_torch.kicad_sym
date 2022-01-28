@@ -6,7 +6,7 @@
     (property "Value" "Battery_Cell" (id 1) (at 1.27 -1.778 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "simple_led_torch:2032_Battery_Holder" (id 2) (at 0 -11.176 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.mouser.in/datasheet/2/215/058-744179.pdf" (id 3) (at 0 -3.81 0)
