@@ -1,6 +1,6 @@
 (footprint "R_Axial_L8mm_D2.5mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61F19FA2)
+  (tedit 61F58D6C)
   (attr through_hole)
   (fp_text reference "REF**" (at 4.23 -2.47 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -21,7 +21,7 @@
   (fp_rect (start 1.76 -0.99) (end 6.04 0.99) (layer "F.Fab") (width 0.12) (fill none) (tstamp dff67d5c-d976-4516-ae67-dbbdb70f8ddd))
   (pad "1" thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 430d6d73-9de6-41ca-b788-178d709f4aae))
   (pad "2" thru_hole circle (at 7.8 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 946404ba-9297-43ec-9d67-30184041145f))
-  (model "D:/Github/KiCAD/simple_led_torch_kicad/Libraries/3D Models/CircuitWorks-RESISTOR 7_62MM DIP.step"
+  (model "D:/Github/KiCAD/simple_led_torch_kicad/Libraries/3D Models/RESISTOR 7_62MM DIP.step"
     (offset (xyz 3.9 0 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
