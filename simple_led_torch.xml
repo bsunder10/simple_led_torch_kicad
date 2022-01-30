@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Github\kicad\simple_led_torch_kicad\simple_led_torch.kicad_sch</source>
+    <date>30-01-2022 13:56:59</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Simple LED Torch</title>
+        <company>SELF</company>
+        <rev>V02</rev>
+        <date>2022-01-28</date>
+        <source>simple_led_torch.kicad_sch</source>
+        <comment number="1" value="Author: Sunder"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value="Added Footprints"/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="B1">
+      <value>Battery_Cell</value>
+      <footprint>simple_led_torch:2032_Battery_Holder</footprint>
+      <datasheet>https://www.mouser.in/datasheet/2/215/058-744179.pdf</datasheet>
+      <fields>
+        <field name="Part Number">534-1058</field>
+        <field name="Purchase Link">https://www.mouser.in/ProductDetail/Keystone-Electronics/1058?qs=1Og3oR3ILyCdlFdchHwycQ%3D%3D</field>
+        <field name="Vender">Mouser</field>
+      </fields>
+      <libsource lib="simple_led_torch" part="Battery_Cell" description="Coin Cell Battery Holders 2032 COIN CELL HLDER SMT 1.118&quot;"/>
+      <property name="Purchase Link" value="https://www.mouser.in/ProductDetail/Keystone-Electronics/1058?qs=1Og3oR3ILyCdlFdchHwycQ%3D%3D"/>
+      <property name="Vender" value="Mouser"/>
+      <property name="Part Number" value="534-1058"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="simple_led_torch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>790ac756-4e5a-4e12-8ad6-660a17d6e2a9</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Led</value>
+      <footprint>simple_led_torch:LED_L10mm_D2.54mm</footprint>
+      <datasheet>https://www.mouser.in/datasheet/2/423/VAOL-10GWY4-1064823.pdf</datasheet>
+      <fields>
+        <field name="Part Number">593-VAOL-10GWY4</field>
+        <field name="Purchase Link">https://www.mouser.in/ProductDetail/VCC/VAOL-10GWY4?qs=io7aH2hdVh7%252BGxpTqMWGeQ%3D%3D</field>
+        <field name="Vendor">Mouser</field>
+      </fields>
+      <libsource lib="simple_led_torch" part="Led" description="10mm LED"/>
+      <property name="Purchase Link" value="https://www.mouser.in/ProductDetail/VCC/VAOL-10GWY4?qs=io7aH2hdVh7%252BGxpTqMWGeQ%3D%3D"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="Part Number" value="593-VAOL-10GWY4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="simple_led_torch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49668e46-eb59-462e-ba8d-d3fa337d03dd</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <footprint>simple_led_torch:R_Axial_L8mm_D2.5mm_Horizontal</footprint>
+      <datasheet>https://www.mouser.in/datasheet/2/414/TTRB_S_A0012168862_1-2565769.pdf</datasheet>
+      <fields>
+        <field name="Part Number">66-SPP2UL3300JLF</field>
+        <field name="Purchase Link">https://www.mouser.in/ProductDetail/IRC-TT-Electronics/SPP2UL3300JLF?qs=sGAEpiMZZMvNd0dY0KymzgbrmNNZCH6WC0J3B4PlvKAC5Xa3g9RXuA%3D%3D</field>
+        <field name="Vendor">Mouser</field>
+      </fields>
+      <libsource lib="simple_led_torch" part="Resistor" description="Wirewound Resistors"/>
+      <property name="Purchase Link" value="https://www.mouser.in/ProductDetail/IRC-TT-Electronics/SPP2UL3300JLF?qs=sGAEpiMZZMvNd0dY0KymzgbrmNNZCH6WC0J3B4PlvKAC5Xa3g9RXuA%3D%3D"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="Part Number" value="66-SPP2UL3300JLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="simple_led_torch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be08841c-2284-4665-8490-171bc25e29f4</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>DPST_Push_Button</value>
+      <footprint>simple_led_torch:DPST_L6.5mm_D4.5mm</footprint>
+      <datasheet>https://www.mouser.in/datasheet/2/670/ts02-2586188.pdf</datasheet>
+      <fields>
+        <field name="Part Number">179-TS0266110BK160SC</field>
+        <field name="Purchase Link">https://www.mouser.in/ProductDetail/CUI-Devices/TS02-66-110-BK-160-SCR-D?qs=A6eO%252BMLsxmQ7CWdunsyhcQ%3D%3D</field>
+        <field name="Vender">Mouser</field>
+      </fields>
+      <libsource lib="simple_led_torch" part="DPST_Push_Button" description="Tactile Switches 6 x 6 mm, 11 mm Act Height, 160 gf, Black, Short Crimped, Through Hole, SPST,"/>
+      <property name="Purchase Link" value="https://www.mouser.in/ProductDetail/CUI-Devices/TS02-66-110-BK-160-SCR-D?qs=A6eO%252BMLsxmQ7CWdunsyhcQ%3D%3D"/>
+      <property name="Vender" value="Mouser"/>
+      <property name="Part Number" value="179-TS0266110BK160SC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="simple_led_torch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61904185-9b01-4148-bd41-e6cfbcfdd06f 3709e52a-85ad-4022-9dd6-3aa933a394cd</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="simple_led_torch" part="Battery_Cell">
+      <description>Coin Cell Battery Holders 2032 COIN CELL HLDER SMT 1.118"</description>
+      <docs>https://www.mouser.in/datasheet/2/215/058-744179.pdf</docs>
+      <fields>
+        <field name="Reference">B</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Footprint">simple_led_torch:2032_Battery_Holder</field>
+        <field name="Datasheet">https://www.mouser.in/datasheet/2/215/058-744179.pdf</field>
+        <field name="Purchase Link">https://www.mouser.in/ProductDetail/Keystone-Electronics/1058?qs=1Og3oR3ILyCdlFdchHwycQ%3D%3D</field>
+        <field name="Vender">Mouser</field>
+        <field name="Part Number">534-1058</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="simple_led_torch" part="DPST_Push_Button">
+      <description>Tactile Switches 6 x 6 mm, 11 mm Act Height, 160 gf, Black, Short Crimped, Through Hole, SPST,</description>
+      <docs>https://www.mouser.in/datasheet/2/670/ts02-2586188.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">DPST_Push_Button</field>
+        <field name="Footprint">simple_led_torch:DPST_L6.5mm_D4.5mm</field>
+        <field name="Datasheet">https://www.mouser.in/datasheet/2/670/ts02-2586188.pdf</field>
+        <field name="Purchase Link">https://www.mouser.in/ProductDetail/CUI-Devices/TS02-66-110-BK-160-SCR-D?qs=A6eO%252BMLsxmQ7CWdunsyhcQ%3D%3D</field>
+        <field name="Vender">Mouser</field>
+        <field name="Part Number">179-TS0266110BK160SC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="simple_led_torch" part="Led">
+      <description>10mm LED</description>
+      <docs>https://www.mouser.in/datasheet/2/423/VAOL-10GWY4-1064823.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led</field>
+        <field name="Footprint">simple_led_torch:LED_L10mm_D2.54mm</field>
+        <field name="Datasheet">https://www.mouser.in/datasheet/2/423/VAOL-10GWY4-1064823.pdf</field>
+        <field name="Purchase Link">https://www.mouser.in/ProductDetail/VCC/VAOL-10GWY4?qs=io7aH2hdVh7%252BGxpTqMWGeQ%3D%3D</field>
+        <field name="Vendor">Mouser</field>
+        <field name="Part Number">593-VAOL-10GWY4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="simple_led_torch" part="Resistor">
+      <description>Wirewound Resistors</description>
+      <docs>https://www.mouser.in/datasheet/2/414/TTRB_S_A0012168862_1-2565769.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Resistor</field>
+        <field name="Footprint">simple_led_torch:R_Axial_L8mm_D2.5mm_Horizontal</field>
+        <field name="Datasheet">https://www.mouser.in/datasheet/2/414/TTRB_S_A0012168862_1-2565769.pdf</field>
+        <field name="Purchase Link">https://www.mouser.in/ProductDetail/IRC-TT-Electronics/SPP2UL3300JLF?qs=sGAEpiMZZMvNd0dY0KymzgbrmNNZCH6WC0J3B4PlvKAC5Xa3g9RXuA%3D%3D</field>
+        <field name="Vendor">Mouser</field>
+        <field name="Part Number">66-SPP2UL3300JLF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="simple_led_torch">
+      <uri>D:/Github/KiCAD/simple_led_torch_kicad/Libraries/Symbols/simple_led_torch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(B1-Pad1)">
+      <node ref="B1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(B1-Pad2)">
+      <node ref="B1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="unconnected-(SW1-Pad3)">
+      <node ref="SW1" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="6" name="unconnected-(SW1-Pad4)">
+      <node ref="SW1" pin="4" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

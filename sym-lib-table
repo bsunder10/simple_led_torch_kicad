@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "simple_led_torch")(type "KiCad")(uri "D:/Github/KiCAD/simple_led_torch_kicad/Libraries/Symbols/simple_led_torch.kicad_sym")(options "")(descr ""))
+  (lib (name "Lion_Logo")(type "KiCad")(uri "D:/Github/KiCAD/simple_led_torch_kicad/Libraries/Logo/Lion_Logo.kicad_sym")(options "")(descr ""))
 )

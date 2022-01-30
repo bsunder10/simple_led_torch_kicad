@@ -1,0 +1,23 @@
+Source:,D:\Github\kicad\simple_led_torch_kicad\simple_led_torch.kicad_sch,,,,,,,,,
+Date:,30-01-2022 13:56,,,,,,,,,
+Tool:,Eeschema (6.0.0),,,,,,,,,
+Generator:,C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,,,,
+Component Count:,4,,,,,,,,,
+,,,,,,,,,,
+Individual Components:,,,,,,,,,,
+,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Part Number,Purchase Link,Vender,Vendor
+,,B1,Battery_Cell,simple_led_torch:Battery_Cell,simple_led_torch:2032_Battery_Holder,https://www.mouser.in/datasheet/2/215/058-744179.pdf,534-1058,https://www.mouser.in/ProductDetail/Keystone-Electronics/1058?qs=1Og3oR3ILyCdlFdchHwycQ%3D%3D,Mouser,
+,,D1,Led,simple_led_torch:Led,simple_led_torch:LED_L10mm_D2.54mm,https://www.mouser.in/datasheet/2/423/VAOL-10GWY4-1064823.pdf,593-VAOL-10GWY4,https://www.mouser.in/ProductDetail/VCC/VAOL-10GWY4?qs=io7aH2hdVh7%252BGxpTqMWGeQ%3D%3D,,Mouser
+,,R1,330,simple_led_torch:Resistor,simple_led_torch:R_Axial_L8mm_D2.5mm_Horizontal,https://www.mouser.in/datasheet/2/414/TTRB_S_A0012168862_1-2565769.pdf,66-SPP2UL3300JLF,https://www.mouser.in/ProductDetail/IRC-TT-Electronics/SPP2UL3300JLF?qs=sGAEpiMZZMvNd0dY0KymzgbrmNNZCH6WC0J3B4PlvKAC5Xa3g9RXuA%3D%3D,,Mouser
+,,SW1,DPST_Push_Button,simple_led_torch:DPST_Push_Button,simple_led_torch:DPST_L6.5mm_D4.5mm,https://www.mouser.in/datasheet/2/670/ts02-2586188.pdf,179-TS0266110BK160SC,https://www.mouser.in/ProductDetail/CUI-Devices/TS02-66-110-BK-160-SCR-D?qs=A6eO%252BMLsxmQ7CWdunsyhcQ%3D%3D,Mouser,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Collated Components:,,,,,,,,,,
+,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Part Number,Purchase Link,Vender,Vendor
+1,1,B1,Battery_Cell,simple_led_torch:Battery_Cell,simple_led_torch:2032_Battery_Holder,https://www.mouser.in/datasheet/2/215/058-744179.pdf,534-1058,https://www.mouser.in/ProductDetail/Keystone-Electronics/1058?qs=1Og3oR3ILyCdlFdchHwycQ%3D%3D,Mouser,
+2,1,D1,Led,simple_led_torch:Led,simple_led_torch:LED_L10mm_D2.54mm,https://www.mouser.in/datasheet/2/423/VAOL-10GWY4-1064823.pdf,593-VAOL-10GWY4,https://www.mouser.in/ProductDetail/VCC/VAOL-10GWY4?qs=io7aH2hdVh7%252BGxpTqMWGeQ%3D%3D,,Mouser
+3,1,R1,330,simple_led_torch:Resistor,simple_led_torch:R_Axial_L8mm_D2.5mm_Horizontal,https://www.mouser.in/datasheet/2/414/TTRB_S_A0012168862_1-2565769.pdf,66-SPP2UL3300JLF,https://www.mouser.in/ProductDetail/IRC-TT-Electronics/SPP2UL3300JLF?qs=sGAEpiMZZMvNd0dY0KymzgbrmNNZCH6WC0J3B4PlvKAC5Xa3g9RXuA%3D%3D,,Mouser
+4,1,SW1,DPST_Push_Button,simple_led_torch:DPST_Push_Button,simple_led_torch:DPST_L6.5mm_D4.5mm,https://www.mouser.in/datasheet/2/670/ts02-2586188.pdf,179-TS0266110BK160SC,https://www.mouser.in/ProductDetail/CUI-Devices/TS02-66-110-BK-160-SCR-D?qs=A6eO%252BMLsxmQ7CWdunsyhcQ%3D%3D,Mouser,

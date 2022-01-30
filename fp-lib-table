@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "simple_led_torch")(type "KiCad")(uri "D:/Github/KiCAD/simple_led_torch_kicad/Libraries/Footprints/simple_led_torch.pretty")(options "")(descr ""))
+  (lib (name "Logo")(type "KiCad")(uri "D:/Github/KiCAD/simple_led_torch_kicad/Libraries/Logo")(options "")(descr ""))
 )
